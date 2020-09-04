@@ -1,0 +1,26 @@
+{
+  "name": "base-next-andres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs"
+  ],
+  "author": "Andres Campuzano <hello@andrescampuzano.com>",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1"
+  }
+}
