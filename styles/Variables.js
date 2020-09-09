@@ -4,7 +4,8 @@ const Variables = {
     whiteColor: '#FFFFFF',
     maxWidth: '1400px',
     padding: '0 5%',
-    red: 'red'
+    red: 'red',
+    black: 'black'
 };
 
 export default Variables;

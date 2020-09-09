@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
 
                 <meta
                     name='description'
-                    content='Andres Campuzano Garzon portfolio. Front End developer'
+                    content='Andres Campuzano Garzon challenge. Front End developer'
                 />
                 <meta
                     name='keywords'
