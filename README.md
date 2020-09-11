@@ -1,6 +1,6 @@
-# Next js React base repository
+# Deal Cards Game
 
-> Get started easily with this base project.
+> <a href="https://deal-cards-game-react.vercel.app/" target="_blank">`Live demo`</a>
 
 **Dependencies**
 
@@ -8,6 +8,8 @@
 -   isomorphic-unfetch
 -   react
 -   react-dom
+-   react-redux
+-   redux
 -   styled-components
 
 **devDependencies**

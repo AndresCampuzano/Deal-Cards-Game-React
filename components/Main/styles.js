@@ -7,7 +7,7 @@ export const Container = styled.main`
     flex-direction: column;
     margin: auto;
     max-width: ${({ theme }) => theme.maxWidth};
-    height: 90vh;
+    height: 80vh;
     color: ${({ theme }) => theme.blackColor};
 `;
 

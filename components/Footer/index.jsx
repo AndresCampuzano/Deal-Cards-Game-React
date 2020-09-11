@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <p>
                 Made with 💚 by Andres Campuzano Garzon, using Next JS, Styled
-                components and Redux
+                components and Redux.
             </p>
         </footer>
     );

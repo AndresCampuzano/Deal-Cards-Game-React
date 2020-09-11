@@ -34,10 +34,10 @@ const Main = () => {
 
     const dispatch = useDispatch();
 
-    console.log(
-        'dataRedux: ',
-        useSelector(s => s.cards.originalData)
-    );
+    // console.log(
+    //     'dataRedux: ',
+    //     useSelector(s => s.cards.originalData)
+    // );
 
     const handleDealCards = () => {
         if (dataRedux.length < 4) {

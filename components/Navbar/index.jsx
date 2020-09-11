@@ -1,23 +1,10 @@
 import React from 'react';
-import Link from 'next/link';
-import NavStyle from './styles';
 
 const Navbar = () => {
     return (
-        <NavStyle>
-            {/* <ul>
-                <li>
-                    <Link href='/'>
-                        <a>Game</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href='/about'>
-                        <a>About</a>
-                    </Link>
-                </li>
-            </ul> */}
-        </NavStyle>
+        <nav>
+            <h1>Deal Cards Game</h1>
+        </nav>
     );
 };
 
