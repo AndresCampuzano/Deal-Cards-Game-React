@@ -1,38 +1,36 @@
 import React from 'react';
-import { Red, Black } from './styles';
+import { Red, Black, Card } from './styles';
 
 const index = ({ value, icon }) => {
-    // console.log('Card: ', value, icon);
-    // console.log('icon: ', icon[0]);
     return (
         <>
             {icon[0] === 'hearts' && (
-                <div>
+                <Card>
                     <Red>
                         {value[0]} {icon[0]}
                     </Red>
-                </div>
+                </Card>
             )}
             {icon[0] === 'diamonds' && (
-                <div>
+                <Card>
                     <Red>
                         {value[0]} {icon[0]}
                     </Red>
-                </div>
+                </Card>
             )}
             {icon[0] === 'spades' && (
-                <div>
+                <Card>
                     <Black>
                         {value[0]} {icon[0]}
                     </Black>
-                </div>
+                </Card>
             )}
             {icon[0] === 'clubs' && (
-                <div>
+                <Card>
                     <Black>
                         {value[0]} {icon[0]}
                     </Black>
-                </div>
+                </Card>
             )}
         </>
     );

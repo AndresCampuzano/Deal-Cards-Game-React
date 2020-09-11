@@ -8,6 +8,10 @@ import Variables from '../styles/Variables';
 // import '../styles/Font.css';
 import Head from 'next/head';
 
+// Redux
+import { Provider } from 'react-redux';
+import store from '../storage';
+
 function MyApp({ Component, pageProps }) {
     // Providers
     // Layout
@@ -165,12 +169,14 @@ function MyApp({ Component, pageProps }) {
                 <link rel='manifest' href='/manifest.json' />
             </Head>
             <ThemeProvider theme={Variables}>
-                <ContextMenu>
-                    <Layout>
-                        <GlobalStyles />
-                        <Component {...pageProps} />
-                    </Layout>
-                </ContextMenu>
+                <Provider store={store}>
+                    <ContextMenu>
+                        <Layout>
+                            <GlobalStyles />
+                            <Component {...pageProps} />
+                        </Layout>
+                    </ContextMenu>
+                </Provider>
             </ThemeProvider>
         </>
     );
