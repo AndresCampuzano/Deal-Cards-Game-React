@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Container from './styles'
 
 const index = () => {
-    return (
-        <div>
-            <h2>All of the cards have been played</h2>
-        </div>
-    );
-};
+  return (
+    <Container>
+      <h1>All of the cards have been played</h1>
+    </Container>
+  )
+}
 
-export default index;
+export default index

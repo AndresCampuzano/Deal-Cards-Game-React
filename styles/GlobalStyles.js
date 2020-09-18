@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
     html {
@@ -10,19 +10,17 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         color: ${({ theme }) => theme.blackColor};
-        ${'' /* overflow-x: hidden; */}
         background-color: ${({ theme }) => theme.white};
+        text-align: center;
     }
     a {
         color: ${({ theme }) => theme.blackColor};
         text-decoration: none;
     }
-    ${
-        '' /* #root {
-        margin: 0 auto;
-        max-width: ${({ theme }) => theme.maxWidth};
-    } */
+    p {
+        margin: 0;
+        padding: 0;
     }
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles

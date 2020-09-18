@@ -69,7 +69,9 @@ const Main = () => {
 
   return (
     <Container>
-      <Button onClick={handleDealCards}>Deal cards</Button>
+      <Button onClick={handleDealCards} disabled={gameFinished}>
+        Deal cards
+      </Button>
       <section>
         {game && (
           <ContainerCards>

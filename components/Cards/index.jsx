@@ -8,11 +8,11 @@ const index = ({ value, icon }) => {
         <CardRed>
           <Container>
             <ContentUp>
-              {value}
+              <p>{value}</p>
               <img src='images/heartImage.png' alt='hearts' />
             </ContentUp>
             <ContentDown>
-              {value}
+              <p>{value}</p>
               <img src='images/heartImage.png' alt='hearts' />
             </ContentDown>
           </Container>
@@ -22,11 +22,11 @@ const index = ({ value, icon }) => {
         <CardRed>
           <Container>
             <ContentUp>
-              {value}
+              <p>{value}</p>
               <img src='images/diamondImage.png' alt='diamonds' />
             </ContentUp>
             <ContentDown>
-              {value}
+              <p>{value}</p>
               <img src='images/diamondImage.png' alt='diamonds' />
             </ContentDown>
           </Container>
@@ -36,11 +36,11 @@ const index = ({ value, icon }) => {
         <CardBlack>
           <Container>
             <ContentUp>
-              {value}
+              <p>{value}</p>
               <img src='images/spadeImage.png' alt='spades' />
             </ContentUp>
             <ContentDown>
-              {value}
+              <p>{value}</p>
               <img src='images/spadeImage.png' alt='spades' />
             </ContentDown>
           </Container>
@@ -51,11 +51,11 @@ const index = ({ value, icon }) => {
         <CardBlack>
           <Container>
             <ContentUp>
-              {value}
+              <p>{value}</p>
               <img src='images/clubImage.png' alt='clubs' />
             </ContentUp>
             <ContentDown>
-              {value}
+              <p>{value}</p>
               <img src='images/clubImage.png' alt='clubs' />
             </ContentDown>
           </Container>

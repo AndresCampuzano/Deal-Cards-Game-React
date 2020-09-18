@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Navbar = () => {
-    return (
-        <nav>
-            <h1>Deal Cards Game</h1>
-        </nav>
-    );
-};
+  return (
+    <nav>
+      <h1>Deal Cards Game</h1>
+    </nav>
+  )
+}
 
-export default Navbar;
+export default Navbar
